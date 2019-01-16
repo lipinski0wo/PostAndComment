@@ -1,0 +1,74 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    z-index: 9;
+    background: rgb(255, 255, 255);
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 45, 85);
+    width: 700px;
+}
+.navbar .container > div {
+    height: 100%;
+    width: 175px;
+}
+
+.navbar .container button {
+    height: 100%;
+    width: 175px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    outline: none;
+    &:hover {
+        color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+.navbar .container:last-child button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img {
+        width: 40px;
+        height: auto;
+    }
+}
+
+// .navbar a,
+// .navbutton {
+//     flex: 1;
+//     height: 100%;
+//     background: #fff;
+//     color: rgba(0, 0, 0, 0.6);
+//     border: none;
+//     cursor: pointer;
+//     font-weight: 800;
+//     outline: none;
+// }
+// .navbar:last-child {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-around;
+// }
+// .navbar:last-child img {
+//     width: 40px;
+//     height: auto;
+// }
+// .navbutton:hover {
+//     color: rgba(0, 0, 0, 0.9);
+// }
